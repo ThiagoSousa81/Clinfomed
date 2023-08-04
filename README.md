@@ -8,3 +8,9 @@
 - <h3>Painel de Configurações da Conta</h3>
 
 </details>
+
+
+<details><summary><h2>Contato</h2></summary>
+
+- <h3><b>Instagram:</b> <a href="https://www.instagram.com/clinfomed_/?theme=dark">link</a></h3>
+</details>
