@@ -1,3 +1,9 @@
-.login {
-    
+.rodape p{
+    color: white;
+}
+
+.rodape a{
+    color: white;
+    text-decoration: none;
+
 }
