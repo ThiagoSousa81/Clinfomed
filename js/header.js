@@ -13,7 +13,7 @@ function Header() {
              
               
               <li className="nav-item">
-                <a className="nav-link" href="#"><button type="button"
+                <a className="nav-link" href="/exit.php"><button type="button"
                   className="btn btn-danger btn-bg w-100">SAIR</button></a>
               </li>
             </ul>
