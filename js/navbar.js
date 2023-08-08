@@ -1,7 +1,7 @@
 function NavBar() {
     return ( 
         <div class="p-4">
-            <h4 class="text-white">Menu</h4>
+            <hr class="text-white-50"></hr>
             <ul class="list-unstyled">
                 <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">CONSULTAS</a></li>
                 <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">PACIENTES</a></li>
