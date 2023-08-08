@@ -10,17 +10,11 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link active" href="#"><button type="button"
-                  className="btn btn-secondary btn-bg w-100">Tela inicial</button></a>
-              </li>
+             
+              
               <li className="nav-item">
                 <a className="nav-link" href="#"><button type="button"
-                  className="btn btn-secondary btn-bg w-100">Configurações</button></a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#"><button type="button"
-                  className="btn btn-danger btn-bg w-100">Sair</button></a>
+                  className="btn btn-danger btn-bg w-100">SAIR</button></a>
               </li>
             </ul>
           </div>

@@ -12,62 +12,73 @@
 </head>
 
 <body class="bg-secondary">
-    <header id="header"></header>
-    
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
-      
+  <header id="header"></header>
+        
+  <section class="container-fluid row">
+    <div id="demo" class="collapse col-sm-2 bg-light text-black-50" style="padding-bottom: 500px;">
       <!-- Nav pills -->
-<ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" data-bs-toggle="pill" href="#home">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
-  </li>
-</ul>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="pill" href="#home">CONSULTAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#menu1">PACIENTES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#menu2">MÉDICOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#menu3">FUNCIONÁRIOS</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-10">
+      <button data-bs-toggle="collapse" class="btn btn-primary" data-bs-target="#demo">
+        <!--<span class="navbar-toggler-icon"></span>-->
+        MENU
+      </button>
 
-<!-- Tab panes -->
+      <!-- Tab panes -->
+
+
 <div class="tab-content">
+
+
   <div class="tab-pane container active" id="home">
     <div class="container mt-4">
-      <h1>Conteúdo Principal</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida erat id neque fringilla, a tincidunt
-        nulla congue. Sed sit amet egestas ex, in lacinia orci. Nulla facilisi. Sed faucibus, risus quis gravida
-        faucibus, ex purus sodales mauris, ut tempor mauris tellus sit amet nisl. Donec nec sagittis nunc. Pellentesque
-        in elit libero. In feugiat nunc nunc, euismod cursus neque volutpat non. Donec tempor tincidunt orci id
-        fringilla.</p>
+      <h1>Consultas</h1>
+      <p>Nenhuma consulta agendada no momento.</p>
     </div>
-
-
   </div>
-  <div class="tab-pane container fade" id="menu1">...</div>
-  <div class="tab-pane container fade" id="menu2">...</div>
+
+  <div class="tab-pane container fade" id="menu1">
+    <div class="container mt-4">
+      <h1>Pacientes</h1>
+      <p>Nenhum paciente cadastrado no momento.</p>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="menu2">
+    <div class="container mt-4">
+      <h1>Médicos</h1>
+      <p>Nenhum médico cadastrado no momento.</p>
+    </div>
+  </div>
+
+  <div class="tab-pane container fade" id="menu3">
+    <div class="container mt-4">
+      <h1>Funcionários</h1>
+      <p>Nenhum funcionário cadastrado no momento.</p>
+    </div>
+  </div>
+
+
 </div>
+
+
+
+    </div>
+  </section> 
     
     
     <!--Scripts externos: Bootstrapp 5-->
