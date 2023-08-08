@@ -90,18 +90,9 @@
 </footer>-->
 
 <div class="d-flex">
-  
+
   <nav id="sidebar" class="bg-dark">
-    <div class="p-4">
-      <h4 class="text-white">Menu</h4>
-      <ul class="list-unstyled">
-        <li><a href="#" class="text-white btn btn-secondary">CONSULTAS</a></li>
-        <li><a href="#" class="text-white btn btn-secondary">PACIENTES</a></li>
-        <li><a href="#" class="text-white btn btn-secondary">MÉDICOS</a></li>
-        <li><a href="#" class="text-white btn btn-secondary">FUNCIONÁRIOS</a></li>
-        <li><a href="#" class="text-white btn btn-secondary">CONFIGURAÇÕES</a></li>
-      </ul>
-    </div>
+    
   </nav>
 
   <div id="content" class="p-4">
@@ -136,12 +127,13 @@
       
      <!--Meus Componentes-->
      <script type="text/babel" src="/js/header.js" data-plugins="transform-react-jsx"></script>
+     <script type="text/babel" src="/js/navbar.js" data-plugins="transform-react-jsx"></script>
 
      <script type="text/babel" data-plugins="transform-react-jsx">
             
         ReactDOM.render(<Header />, document.getElementById('header'));
         
-        //ReactDOM.render(<NavBar />, document.getElementById('navbar'));
+        ReactDOM.render(<NavBar />, document.getElementById('sidebar'));
         
         //ReactDOM.render(<Section1 />, document.getElementById('first-message'));
         
