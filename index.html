@@ -15,71 +15,59 @@
     <header id="header"></header>
     
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu"
-            aria-controls="sidebarMenu">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Item 1</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Item 2</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Item 3</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     
-      <div class="container mt-4">
-        <h1>Conteúdo Principal</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida erat id neque fringilla, a tincidunt
-          nulla congue. Sed sit amet egestas ex, in lacinia orci. Nulla facilisi. Sed faucibus, risus quis gravida
-          faucibus, ex purus sodales mauris, ut tempor mauris tellus sit amet nisl. Donec nec sagittis nunc. Pellentesque
-          in elit libero. In feugiat nunc nunc, euismod cursus neque volutpat non. Donec tempor tincidunt orci id
-          fringilla.</p>
-      </div>
+      
+      <!-- Nav pills -->
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="pill" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
+  </li>
+</ul>
 
-      <div class="container mt-4">
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" href="#tab-1">Tab 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Tab 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Tab 3</a>
-          </li>
-        </ul>
-        <div class="tab-content mt-3">
-          <div class="tab-pane fade show active" id="tab-1">
-            <h4>Tab 1 Content</h4>
-            <p>This is the content of Tab 1.</p>
-          </div>
-          <div class="tab-pane fade" id="tab-2">
-            <h4>Tab 2 Content</h4>
-            <p>This is the content of Tab 2.</p>
-          </div>
-          <div class="tab-pane fade" id="tab-3">
-            <h4>Tab 3 Content</h4>
-            <p>This is the content of Tab 3.</p>
-          </div>
-        </div>
-      </div>
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active" id="home">
+    <div class="container mt-4">
+      <h1>Conteúdo Principal</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida erat id neque fringilla, a tincidunt
+        nulla congue. Sed sit amet egestas ex, in lacinia orci. Nulla facilisi. Sed faucibus, risus quis gravida
+        faucibus, ex purus sodales mauris, ut tempor mauris tellus sit amet nisl. Donec nec sagittis nunc. Pellentesque
+        in elit libero. In feugiat nunc nunc, euismod cursus neque volutpat non. Donec tempor tincidunt orci id
+        fringilla.</p>
+    </div>
+
+
+  </div>
+  <div class="tab-pane container fade" id="menu1">...</div>
+  <div class="tab-pane container fade" id="menu2">...</div>
+</div>
     
     
     <!--Scripts externos: Bootstrapp 5-->
