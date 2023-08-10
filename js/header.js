@@ -10,8 +10,6 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-             
-              
               <li className="nav-item">
                 <a className="nav-link" href="/exit.php"><button type="button"
                   className="btn btn-danger btn-bg w-100">SAIR</button></a>
