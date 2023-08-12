@@ -4,7 +4,7 @@ function NavBar() {
             <hr class="text-white-50"></hr>
             <ul class="list-unstyled">
                 <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">CONSULTAS</a></li>
-                <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">PACIENTES</a></li>
+                <li><a href="/pacients.html" class="text-white btn btn-secondary fill padding-to-button">PACIENTES</a></li>
                 <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">MÉDICOS</a></li>
                 <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">FUNCIONÁRIOS</a></li>
                 <li><a href="#" class="text-white btn btn-secondary fill padding-to-button">CONFIGURAÇÕES</a></li>
