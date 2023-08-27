@@ -1,1 +1,9 @@
-<?echo "<h1>Comming soom.</h1>"?>
+<?php
+
+if(!isset($_SESSION)) {
+    session_start();
+}
+
+session_destroy();
+
+header("Location: /login");
