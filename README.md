@@ -12,5 +12,5 @@
 
 <details><summary><h2>Contato</h2></summary>
 
-- <h3><b>Instagram:</b> <a href="https://www.instagram.com/clinfomed_/?theme=dark">link</a></h3>
+- <h3><b>Instagram:</b> <a href="https://www.instagram.com/clinfomed_/?theme=dark">@clinfomed_</a></h3>
 </details>
