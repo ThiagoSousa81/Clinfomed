@@ -4,6 +4,7 @@
 
 - <h3><a href="https://clinfomed.22web.org/login">Login</a></h3>
 - <h3><a href="https://clinfomed.22web.org/pacients.html">Pacientes</a></h3>
+- <h3><a href="https://clinfomed.22web.org/medicos.html">Médicos</a></h3>
 - <h3><a href="https://clinfomed.22web.org/funcionarios.html">Funcionários</a></h3>
 - <h3><a href="https://clinfomed.22web.org/config.html">Configurações da Conta</a></h3>
 
