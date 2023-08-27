@@ -80,9 +80,9 @@
         </div>
     </div>
 
-
-
 </div>
+</div>
+<footer id="footer"></footer>
 
 <script>
   const sidebar = document.getElementById('sidebar');
@@ -109,12 +109,13 @@
      <!--Meus Componentes-->
      <script type="text/babel" src="/js/headr.js" data-plugins="transform-react-jsx"></script>
      <script type="text/babel" src="/js/navbar.php" data-plugins="transform-react-jsx"></script>
+     <script type="text/babel" src="/js/footer.php" data-plugins="transform-react-jsx"></script>
 
      <script type="text/babel" data-plugins="transform-react-jsx">
             
         ReactDOM.render(<Header />, document.getElementById('header'));
         ReactDOM.render(<NavBar />, document.getElementById('sidebar'));
-        
+        ReactDOM.render(<Footer />, document.getElementById('footer'));
         //ReactDOM.render(<Section1 />, document.getElementById('first-message'));
         
         //ReactDOM.render(<Footer />, document.getElementById('footer'));
