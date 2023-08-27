@@ -1,4 +1,23 @@
 <!DOCTYPE html>
+<?php
+require_once 'php/class.php';
+include('protect.php');
+
+$cls = new database;
+
+if(!isset($_SESSION)) {
+  session_start();
+}
+
+if(isset($_SESSION['ID_USER'])) {
+  
+  //$mysqli = $cls->GetLinkMySQLI();
+  $link = $cls->GetLinkMySQLI();
+  if($mysqli->error) {
+    die("Falha ao conectar ao banco de dados: " . $mysqli->error);
+  }
+
+?>
 <html lang="pt-br">
 
 <head>
@@ -79,3 +98,7 @@
 </html>
 
 
+<?php
+}
+
+?>
