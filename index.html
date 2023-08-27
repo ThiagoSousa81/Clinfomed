@@ -15,7 +15,7 @@
   <style>
     .fill{
       width: 100%;
-    }e
+    }
     .padding-to-button{
       margin-block: 5px;
     }
@@ -30,11 +30,11 @@
 
   <div id="content" class="p-4">
     <h2>Consultas</h2>
-    <p>Nenhuma consulta agendada!</p>
+    <p>Nada agendado no momento!</p>
     <h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></h1>
   </div>
 </div>
-
+<footer id="footer"></footer>
 <script>
   const sidebar = document.getElementById('sidebar');
   const content = document.getElementById('content');
@@ -58,17 +58,18 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-plugin-transform-react-jsx/6.24.1/transform-react-jsx.min.js"></script>
       
      <!--Meus Componentes-->
-     <script type="text/babel" src="/js/header.js" data-plugins="transform-react-jsx"></script>
-     <script type="text/babel" src="/js/navbar.js" data-plugins="transform-react-jsx"></script>
+     <script type="text/babel" src="/js/headr.js" data-plugins="transform-react-jsx"></script>
+     <script type="text/babel" src="/js/navbar.php" data-plugins="transform-react-jsx"></script>
+     <script type="text/babel" src="/js/footer.php" data-plugins="transform-react-jsx"></script>
 
      <script type="text/babel" data-plugins="transform-react-jsx">
             
         ReactDOM.render(<Header />, document.getElementById('header'));
         ReactDOM.render(<NavBar />, document.getElementById('sidebar'));
-        
+        ReactDOM.render(<Footer />, document.getElementById('footer'));
         //ReactDOM.render(<Section1 />, document.getElementById('first-message'));
         
-        //ReactDOM.render(<Footer />, document.getElementById('footer'));
+        //
         
         
       </script>
@@ -76,4 +77,5 @@
 </body>
 
 </html>
+
 
