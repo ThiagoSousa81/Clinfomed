@@ -9,13 +9,16 @@ if(!isset($_SESSION)) {
   session_start();
 }
 
-if(isset($_SESSION['ID_USER'])) {
+if(isset($_SESSION['ID_FUNCIONARIO'])) {
   
   //$mysqli = $cls->GetLinkMySQLI();
   $link = $cls->GetLinkMySQLI();
   if($mysqli->error) {
     die("Falha ao conectar ao banco de dados: " . $mysqli->error);
   }
+
+  $query = mysqli_query($link, "SELECT * FROM FUNCIONARIOS WHERE ID_FUNCIONARIO = ".$_SESSION['ID_FUNCIONARIO']);
+  $User = mysqli_fetch_array($query);
 
 ?>
 <html lang="pt-br">
@@ -50,7 +53,7 @@ if(isset($_SESSION['ID_USER'])) {
   <div id="content" class="p-4">
     <h2>Consultas</h2>
     <p>Nada agendado no momento!</p>
-    <h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></h1>
+    <h1><br><br><br></h1>
   </div>
 </div>
 <footer id="footer"></footer>
@@ -84,7 +87,7 @@ if(isset($_SESSION['ID_USER'])) {
      <script type="text/babel" data-plugins="transform-react-jsx">
             
         ReactDOM.render(<Header />, document.getElementById('header'));
-        ReactDOM.render(<NavBar />, document.getElementById('sidebar'));
+        ReactDOM.render(<NavBar nome="<?php echo (base64_decode($User[1]));?>"/>, document.getElementById('sidebar'));
         ReactDOM.render(<Footer />, document.getElementById('footer'));
         //ReactDOM.render(<Section1 />, document.getElementById('first-message'));
         
