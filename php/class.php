@@ -63,10 +63,10 @@
       {
         try {
           $email = base64_encode($email);
-          $servidor = 'sql301.infinityfree.com';
-          $username = 'if0_34449232';
-          $password = 'vYP7KAmHCI';
-          $database = 'if0_34449232_clinfomed';
+          $servidor = 'xxxxxxxx';
+          $username = 'xxxxxxxx';
+          $password = 'xxxcccccxxxxxxx';
+          $database ='xxxxxxxxx';
           $conexao = mysqli_connect($servidor, $username, $password, $database) 
             or die("Erro ao conectar ao banco de dados");
           
@@ -85,10 +85,10 @@
       
       public function GetLinkMySQLI()
       {
-        $usuario = 'if0_34449232';
-        $senha = 'vYP7KAmHCI';
-        $database = 'if0_34449232_clinfomed';
-        $host = 'sql301.infinityfree.com';
+        $usuario = 'xxxxxxxxxx ';
+        $senha = 'xxxxxxxxxxxx';
+        $database = 'xxxxxccxx';
+        $host = 'xxxxxxxxxxxxc';
         
         $mysqli = new mysqli($host, $usuario, $senha, $database);
         return $mysqli;
